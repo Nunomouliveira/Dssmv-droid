@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:background="#6E260E"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.dssmv_1211066_1210939.BooksActivity">
+
+    <EditText
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Books"/>
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/getBookButton"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Search"/>
+
+</LinearLayout>

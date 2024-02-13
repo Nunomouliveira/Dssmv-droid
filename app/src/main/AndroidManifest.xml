@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+            android:name="android.hardware.sensor.accelerometer"
+            android:required="true"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.DSSMV_1211066_1210939"
+            android:usesCleartextTraffic="true">
+        <activity
+                android:name=".EditStockActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".CreateLibraryBookActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".LibraryBookActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".EditLibraryActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".CreateLibraryActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".SettingsActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".LibraryActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".BooksActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".MenuActivity"
+                android:exported="false"
+                android:label="@string/title_activity_menu"
+                android:theme="@style/Theme.DSSMV_1211066_1210939"/>
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

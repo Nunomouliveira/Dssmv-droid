@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6E260E"
+                tools:context="com.example.dssmv_1211066_1210939.MainActivity">
+
+    <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Public Library App" />
+    <Button
+            android:text="Menu"
+            android:layout_width="127dp"
+            android:layout_height="59dp"
+            android:id="@+id/menuButton"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="144dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="272dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/welcomeTextView"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="139dp"/>
+    <ImageView
+            android:layout_width="293dp"
+            android:src="@drawable/app_icon" android:layout_height="188dp"
+            android:layout_marginBottom="89dp" android:layout_above="@+id/welcomeTextView"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="58dp" android:layout_marginTop="79dp"
+            android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:layout_marginStart="59dp"/>
+
+</RelativeLayout>
